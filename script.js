@@ -19,30 +19,7 @@ const subcategoriasPorCategoria = {
     'bazar': ['todos-bazar', 'decoracao', 'utensilios-domesticos', 'beleza', 'lazer', 'eletronicos', 'pet', 'papelaria', 'natal', 'frete-gratis']
 };
 
-// Nomes amigáveis para subcategorias
-const subcategoriaNomes = {
-    'cartao-visita': 'Cartão de Visita',
-    'panfleto': 'Panfleto',
-    'banner': 'Banner',
-    'vinil': 'Vinil',
-    'foto-10x15': 'Foto 10x15',
-    'foto-a4': 'Foto A4',
-    'blusa-body': 'Blusa e Body',
-    'caneca': 'Caneca',
-    'copo-longdrink': 'Copo Longdrink',
-    'azulejo': 'Azulejo',
-    'outros-personalizados': 'Outros',
-    'todos-bazar': 'Todos',
-    'decoracao': 'Decoração',
-    'utensilios-domesticos': 'Utensílios Domésticos',
-    'beleza': 'Beleza',
-    'lazer': 'Lazer',
-    'eletronicos': 'Eletrônicos',
-    'pet': 'Pet',
-    'papelaria': 'Papelaria',
-    'natal': 'Natal',
-    'frete-gratis': 'Frete Grátis'
-};
+
 
 // Abrir/fechar carrinho
 openCartBtn.addEventListener('click', () => {
